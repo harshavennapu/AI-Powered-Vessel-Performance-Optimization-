@@ -30,10 +30,8 @@ if uploaded_file:
 
     # Read Excel
     df = pd.read_excel(uploaded_file)
-    st.write(df.columns)
-    st.dataframe(df)
 
-    st.subheader("Raw Noon Report")
+    st.subheader("View Raw Noon Report Data")
     st.dataframe(df)
 
     # -----------------------------------
