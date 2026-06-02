@@ -2,6 +2,7 @@ import plotly.express as px
 import streamlit as st
 import pandas as pd
 st.sidebar.title("🚢 Navigation")
+st.success("LATEST VERSION UPDATED")
 st.caption("AI Powered Vessel Performance Monitoring System")
 
 st.sidebar.info("""
